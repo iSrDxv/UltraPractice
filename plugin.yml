@@ -1,0 +1,6 @@
+name: UltraPractice
+version: 0.0.0
+main: isrdxv\ultrapractice\UltraPractice
+author: iSrDxv
+website: https://github.com/iSrDxv/UltraPractice
+src-namespace-prefix: isrdxv\ultrapractice
