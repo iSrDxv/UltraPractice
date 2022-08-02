@@ -2,5 +2,7 @@
 build-by-default: true
 branches:
 - stable
-projects: []
+projects:
+ UltraPractice:
+  path: ""
 ...
