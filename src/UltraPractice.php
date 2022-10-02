@@ -33,4 +33,9 @@ class UltraPractice extends PluginBase
     Discord::sendStatus(false);
   }
   
+  public static function getPlayerData(): Config
+  {
+    return new Config($this->getDataFolder() . "playerData.json", Config::JSON, []);
+  }
+  
 }
