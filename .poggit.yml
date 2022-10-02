@@ -15,5 +15,5 @@ projects:
     - src: ifera-mc/UpdateNotifier/UpdateNotifier
       version: ^3.0.0
     - src: ExodusDevs/TranslationAPI/TranslationAPI
-      version: ^1.0.0-stable
+      version: ^1.0.7
 ...
