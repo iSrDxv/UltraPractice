@@ -20,6 +20,12 @@ class UltraPractice extends PluginBase
     if (ConfigUpdater::checkUpdate($this, $this->getConfig(), "version", self::CONFIG_VERSION)) {
       $this->reloadConfig();
     }
+    Discord::sendStatus(true);
+  }
+  
+  protected function onDisable(): void
+  {
+    Discord::sendStatus(false);
   }
   
 }
