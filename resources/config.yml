@@ -4,6 +4,9 @@ version: 0
 # Put the server in maintenance mode to fix bugs or issues in the arenas :)
 mode-maintenance: false
 
+# Your server name
+name: ""
+
 # Your server logo
 logo: ""
 
