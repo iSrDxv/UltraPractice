@@ -12,10 +12,22 @@ class Session
   
   private array $data;
   
+  private bool $inLobby = true;
+  
   public function __construct(Player $player)
   {
     $this->username = $player->getName();
     //$this->scoreboard = new ScoreboardHandler();
+  }
+  
+  public function inLobby(): bool
+  {
+    return $this->inLobby;
+  }
+  
+  public function setInLobby(bool $value = false): void
+  {
+    $this->inLobby = $value;
   }
   
   public function load(): void
