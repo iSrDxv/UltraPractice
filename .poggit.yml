@@ -10,4 +10,10 @@ projects:
     - src: CortexPE/DiscordWebhookAPI/DiscordWebhookAPI
       version: ^1.0.2
       branch: PM4
+    - src: ifera-mc/ConfigUpdater/ConfigUpdater
+      version: ^2.0.0
+    - src: ifera-mc/UpdateNotifier/UpdateNotifier
+      version: ^3.0.0
+    - src: ExodusDevs/TranslationAPI/TranslationAPI
+      version: ^1.0.0-stable
 ...

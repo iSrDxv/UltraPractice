@@ -1,3 +1,6 @@
+# The version of configuration you are using
+version: 0
+
 # Put the server in maintenance mode to fix bugs or issues in the arenas :)
 mode-maintenance: false
 
