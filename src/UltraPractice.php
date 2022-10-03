@@ -6,7 +6,10 @@ use isrdxv\ultrapractice\discord\Discord;
 use isrdxv\ultrapractice\session\SessionManager;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\SingletonTrait;
+use pocketmine\utils\{
+  Config,
+  SingletonTrait
+};
 
 use JackMD\ConfigUpdater\ConfigUpdater;
 use JackMD\UpdateNotifier\UpdateNotifier;
