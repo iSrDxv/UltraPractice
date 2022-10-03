@@ -10,6 +10,14 @@ name: ""
 # Your server logo
 logo: ""
 
+message-welcome:
+ - "-----"
+ - "Welcome to Practice Server"
+ - "Store: store.myserver.com"
+ - "Vote: vote.myserver.com"
+ - "Twitter: @MyServer"
+ - "-----"
+
 webhooks: 
  status: ""
  ban: ""

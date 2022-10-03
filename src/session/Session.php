@@ -103,6 +103,7 @@ class Session
         "autoJoin" => false
       ]
     ];
+    Server::getInstance()->broadcastMessage(implode("\n", UltraPractice::getInstance()->getConfig()->get("message-welcome")));
   }
   
   public function save(): void
