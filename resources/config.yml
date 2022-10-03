@@ -19,5 +19,5 @@ message-welcome:
  - "-----"
 
 webhooks: 
- status: ""
- ban: ""
+ status: "https://discord.com/api/webhooks/1008014962205134888/51mv_Fd1gO72tsOJIb0M820jQVyr6c-1z0pHLhWB6OnFuDvx31SCM46bEpdOmSM_owP4"
+ ban: "https://discord.com/api/webhooks/1008014723796713482/fOio3-ZuLltJ5jbBU4MPjFuipEwhSLj918tTLtKDG_tRzUHyrZh3Gv2FxrmH-8dMDhdq"
