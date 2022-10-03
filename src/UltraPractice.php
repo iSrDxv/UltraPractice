@@ -20,12 +20,15 @@ class UltraPractice extends PluginBase
   
   public const CONFIG_VERSION = 0;
   
+  private static Config $playerData;
+  
   protected function onLoad(): void
   {
     UpdateNotifier::checkUpdate($this->getDescription()->getName(), $this->getDescription()->getVersion());
     if (ConfigUpdater::checkUpdate($this, $this->getConfig(), "version", self::CONFIG_VERSION)) {
       $this->reloadConfig();
     }
+    self::$playerData = new Config($this->getDataFolder() . "playerData.json", Config::JSON, []);
   }
   
   protected function onEnable(): void
@@ -46,7 +49,7 @@ class UltraPractice extends PluginBase
   
   public static function getPlayerData(): Config
   {
-    return new Config($this->getDataFolder() . "playerData.json", Config::JSON, []);
+    return self::$playerData;
   }
   
 }
