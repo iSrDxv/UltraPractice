@@ -2,6 +2,9 @@
 
 namespace isrdxv\ultrapractice;
 
+use isrdxv\ultrapractice\discord\Discord;
+use isrdxv\ultrapractice\session\SessionManager;
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
 
@@ -31,6 +34,11 @@ class UltraPractice extends PluginBase
   protected function onDisable(): void
   {
     Discord::sendStatus(false);
+  }
+  
+  public static function getSessionManager(): SessionManager
+  {
+    return SessionManager::getInstance();
   }
   
   public static function getPlayerData(): Config
