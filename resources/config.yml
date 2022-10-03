@@ -5,10 +5,10 @@ version: 0
 mode-maintenance: false
 
 # Your server name
-name: ""
+name: "MyServer"
 
 # Your server logo
-logo: ""
+logo: "https://github.com/iSrDxv"
 
 message-welcome:
  - "-----"
