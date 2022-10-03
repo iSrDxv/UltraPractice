@@ -8,7 +8,7 @@ use pocketmine\network\mcpe\protocol\MoveActorAbsolutePacket;
 use pocketmine\world\World;
 use pocketmine\Server;
 use pocketmine\entity\Entity;
-use pocketmine\math\Vevtor3;
+use pocketmine\math\Vector3;
 use pocketmine\utils\TextFormat;
 
 use function sqrt;
